@@ -149,18 +149,17 @@ To use it:
 2. Optionally, update the `prefix` variable if you want to upload to a specific path in the bucket.
 3. Run `python scripts/upload_to_s3.py`.
 
-## Complete chat app
+## Complete Chat App
 
-### Complete invoke model and knoweldge base code
-- Open the bedrock_utils.py file and the following functions:
-  - query_knowledge_base
-  - generate_response
+### Invoked Model and Knowledge Base Code
+- Implemented the following functions in `bedrock_utils.py`:
+  - `query_knowledge_base`
+  - `generate_response`
 
-### Complete the prompt validation function
-- Open the bedrock_utils.py file and the following function:
-  - valid_prompt
+### Prompt Validation Function
+- Implemented the `valid_prompt` function in `bedrock_utils.py`
+  - This function categorizes user prompts to guide LLM responses
 
-  Hint: categorize the user prompt
 
 ## Troubleshooting
 
@@ -174,6 +173,7 @@ For more detailed troubleshooting, refer to the error messages and logs provided
 ## Reference Project
 
 This project was developed with the help of the cloned Udacity repo: [cd13926-Building-Generative-AI-Applications-with-Amazon-Bedrock-and-Python-project-solution](https://github.com/udacity/cd13926-Building-Generative-AI-Applications-with-Amazon-Bedrock-and-Python-project-solution)
+
 
 
 
