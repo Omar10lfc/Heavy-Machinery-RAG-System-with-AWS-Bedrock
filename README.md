@@ -5,6 +5,8 @@ This project demonstrates an intelligent document understanding system built usi
 
 It also sets up an **AWS Bedrock Knowledge Base** integrated with an **Aurora Serverless PostgreSQL** database and includes scripts for database setup and file upload to **Amazon S3**.
 
+# Solution Architecture Diagram
+
 ![Solution Architecture Diagram](https://github.com/Omar10lfc/Heavy-Machinery-RAG-System-with-AWS-Bedrock/blob/main/solution%20Architecture%20Diagram.jpeg)
 
 
@@ -172,5 +174,6 @@ For more detailed troubleshooting, refer to the error messages and logs provided
 ## Reference Project
 
 This project was developed with the help of the cloned Udacity repo: [cd13926-Building-Generative-AI-Applications-with-Amazon-Bedrock-and-Python-project-solution](https://github.com/udacity/cd13926-Building-Generative-AI-Applications-with-Amazon-Bedrock-and-Python-project-solution)
+
 
 
