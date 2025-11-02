@@ -1,14 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Heavy-Machinery-RAG-System-with-AWS-Bedrock
-This project demonstrates an intelligent document understanding system built using AWS Bedrock and Streamlit. It integrates LLM-powered text analysis and semantic search to process, summarize, and extract insights from documents in an interactive web interface.
-=======
-# cd13926-Building-Generative-AI-Applications-with-Amazon-Bedrock-and-Python-project-solution
->>>>>>> 5ea27a9 (first commit)
-=======
-# AWS Bedrock Knowledge Base with Aurora Serverless
+# Heavy-Machinery-RAG-System-with-AWS-Bedrock  
+**Knowledge Base and Aurora Serverless – AWS Future AI Engineer Nanodegree Project**
 
-This project sets up an AWS Bedrock Knowledge Base integrated with an Aurora Serverless PostgreSQL database. It also includes scripts for database setup and file upload to S3.
+This project demonstrates an intelligent document understanding system built using **AWS Bedrock** and **Streamlit**. It integrates **LLM-powered text analysis** and **semantic search** to process, summarize, and extract insights from documents in an interactive web interface.
+
+It also sets up an **AWS Bedrock Knowledge Base** integrated with an **Aurora Serverless PostgreSQL** database and includes scripts for database setup and file upload to **Amazon S3**.
+
+![Solution Architecture Diagram]([https://example.com/image.png](https://video.udacity-data.com/topher/2024/September/66eca4ad_mermaid-diagram-2024-09-19-152427/mermaid-diagram-2024-09-19-152427.jpeg))
 
 ## Table of Contents
 
@@ -19,6 +16,7 @@ This project sets up an AWS Bedrock Knowledge Base integrated with an Aurora Ser
 5. [Using the Scripts](#using-the-scripts)
 6. [Customization](#customization)
 7. [Troubleshooting](#troubleshooting)
+8. [Reference](#reference-project)
 
 ## Project Overview
 
@@ -169,4 +167,8 @@ To use it:
 - For any Terraform errors, ensure you're using a compatible version and that all module sources are correctly specified.
 
 For more detailed troubleshooting, refer to the error messages and logs provided by Terraform and the Python scripts.
->>>>>>> 125c1e0 (added instructions in the README)
+
+## Reference Project
+
+This project was developed with the help of the cloned Udacity repo: [cd13926-Building-Generative-AI-Applications-with-Amazon-Bedrock-and-Python-project-solution](https://github.com/udacity/cd13926-Building-Generative-AI-Applications-with-Amazon-Bedrock-and-Python-project-solution)
+
